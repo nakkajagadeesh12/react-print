@@ -28,7 +28,6 @@ export default class Hello extends React.Component {
               name="username"
               onChange={this.change.bind(this)}
               value={this.state.username}
-              onClick={this.onSubmit.bind(this)}
             />
           </div>
           <br />
